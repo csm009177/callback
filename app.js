@@ -1,8 +1,8 @@
-function cbName(callback) {
+function func(callback) {
   callback();
 }
 function callback(){
-  console.log("callback");
+  console.log("is callback");
 }
 
-cbName(callback)
+func(callback)
