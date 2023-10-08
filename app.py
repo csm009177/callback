@@ -1,7 +1,7 @@
-def mult(val):
+def func (callback):
+  return callback()
+
+def callback():
   return print("is callback")
 
-def caller (func):
-  return (func)
-
-caller(mult,)
+func(callback)
