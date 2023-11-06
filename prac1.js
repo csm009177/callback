@@ -3,3 +3,5 @@ function myCallback(result) {
 }
 
 myCallback('test')
+
+function as
