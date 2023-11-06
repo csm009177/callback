@@ -1,7 +1,9 @@
 
 
 function call(a,b,callback){
-  callback(a,b)
+  callback(a,b);
 }
 
-call(1,2)
+call((1,2)=>{
+  console.log()
+})

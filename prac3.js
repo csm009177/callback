@@ -9,6 +9,6 @@ function later(callback){
   callback(print);
 }
 
-later(test);
+later(test); // 콜백이면 안에서 부터 실행된다
 
 
