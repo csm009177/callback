@@ -1,8 +1,9 @@
-function test(pram, callback){
-  callback = console.log(pram);
-  return callback()
+function test(print){
+  console.log(`result: ${print}`)
 }
-test("j")
 
-
+function later(pram, callback){
+  callback(pram)
+}
+later("a", test)
 
