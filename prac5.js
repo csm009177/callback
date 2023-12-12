@@ -1,6 +1,10 @@
-function computer(cpu, motherboard, power, callback){
-  console.log(cpu, motherboard)
-  return callback()
+function computer(cpu, mb, pw, ram,  callback){
+  console.log(`${cpu}, ${mb}, ${pw}, ${ram}`)
 }
 
-computer()
+
+function later(pram1,pram2,pram3,pram4,callback){
+  callback(pram1,pram2,pram3,pram4)
+}
+later("12400","z690","1000w","ddr5 4200", computer)
+
